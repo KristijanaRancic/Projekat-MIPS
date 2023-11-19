@@ -1,0 +1,20 @@
+Projekat MIPS
+Kristijana Rančić 635/2021
+
+Ukupno samoglasnika u imenu i prezimenu = 6
+Ukupno suglasnika u imenu i prezimenu = 10
+10>6 -> Koristi se port B
+
+Ukupan broj slova u imenu i prezimenu = 16
+16mod6 = 4 -> Koristi se 4. pin
+
+Broj slova u imenu = 10
+Broj slova u prezimenu = 6
+
+takt 1 (ponavlja se 10 puta): 
+impuls (10ms) + pauza (6ms) 
+
+takt 2 (ponavlja se 6 puta): 
+impuls (6ms) + pauza (10ms)
+
+
